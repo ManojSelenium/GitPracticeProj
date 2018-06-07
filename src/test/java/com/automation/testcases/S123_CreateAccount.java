@@ -20,7 +20,7 @@ public class S123_CreateAccount extends TestBase{
 	
 	@BeforeMethod
 	public void setUp() {
-		
+		System.out.println("Branch Commit");
 		driver=intlizeBrowser();
 		enterURL("http://automationpractice.com/index.php");
 		landingPage=new LandingPage(driver);
